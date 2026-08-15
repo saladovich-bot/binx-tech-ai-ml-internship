@@ -9,8 +9,12 @@ This project builds a curriculum-aligned machine learning analysis on a **synthe
 ## Project Structure
 
 ```
-├── cardiac_project.ipynb   # main notebook (run top to bottom)
-├── data/cardiac_synthetic.csv
+├── notebooks/
+│   └── cardiac_project.ipynb   # main notebook (run top to bottom)
+├── data/
+│   ├── cardiac_synthetic.csv
+│   └── data_dictionary.md
+├── output/                     # generated plots and result summaries
 ├── requirements.txt
 └── README.md
 ```
